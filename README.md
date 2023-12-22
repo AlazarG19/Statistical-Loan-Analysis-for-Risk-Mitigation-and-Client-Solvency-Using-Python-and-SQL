@@ -31,6 +31,62 @@ Identifying and analysing trends in World Bank Loan Distribution over time and e
 ## Dataset
 The dataset, sourced from the loan department provides a detailed overvies of each loans with their respective description. This datase encompasses a range of critical information related to loans granted for diverse projects. THe datset is strucuted with the following columns
 
+#### ListingNumber 
+
+A distinctive identifier assigned to each loan
+
+#### Term:
+
+Specifies the duration of the loan, providing insights into the time frame over which the financial transaction unfolds.
+
+#### Loan Status:
+
+Indicates the current status of the loan.
+
+#### Borrower Rate:
+
+The rate at which the borrower is charged for the loan, representing a key financial metric in the lending transaction.
+
+#### Estimated Effective Yield:
+
+Offers an estimate of the overall return on investment for the lender, factoring in potential losses.
+
+#### Estimated Loss:
+
+Predicts the potential loss associated with the loan, aiding in risk assessment and financial planning.
+
+#### Estimated Return:
+
+Forecasts the expected return for the lender, contributing to strategic decision-making.
+
+#### Prosper Rating (Alpha):
+
+Provides a graded classification of the borrower's creditworthiness, assisting in risk evaluation.
+
+#### Occupation:
+
+Specifies the borrower's profession or occupation, offering insights into their financial stability.
+
+#### Employment Status:
+
+Indicates whether the borrower is employed, unemployed, or holds a different employment status.
+
+#### Is Borrower Homeowner:
+
+Highlights whether the borrower owns a home, influencing risk assessment and lending terms.
+
+#### Loan Original Amount:
+
+Represents the initial amount of the loan requested by the borrower, forming a foundational financial data point.
+
+#### Monthly Loan Payment:
+
+Specifies the regular monthly payment the borrower is required to make, a critical element in financial planning.
+
+#### Investors:
+
+Indicates the number of investors participating in the loan, reflecting market interest and confidence in the investment opportunity.
+
 ## Tools
 We'll be using the the library pandas from the python function to facilitate data manipulation and perform inital assessment of the dataset's strucutre. Once that is complete We'll be using mysql to formulate SQL queries to extract relevant information for trend analysis.
 
